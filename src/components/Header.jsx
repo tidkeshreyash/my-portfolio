@@ -26,7 +26,7 @@ function Header() {
         <nav className="hidden md:flex space-x-6 lg:space-x-8 text-gray-200">
           <a href="#about" className="hover:text-white transition">About</a>
           <a href="#experience" className="hover:text-white transition">Experience</a>
-          <a href="#education" className="hover:text-white transition">Skills</a>
+          <a href="#skills" className="hover:text-white transition">Skills</a>
           <a href="#experience" className="hover:text-white transition">Projects</a>
           <a href="#projects" className="hover:text-white transition">Education</a>
           <a href="#contact" className="hover:text-white transition">Contact</a>

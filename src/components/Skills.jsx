@@ -130,6 +130,12 @@ const SkillItem = styled.div`
     font-size: 14px;
     padding: 6px 12px;
   }
+
+  &:hover {
+    color: #fff;
+    border-color: #fff;
+    transform: translateY(-1px);
+  }
 `
 
 const SkillImage = styled.img`
@@ -254,9 +260,12 @@ const Skills = () => {
     return (
         <Container id="skills">
             <Wrapper>
-                <Title>Skills</Title>
-                <Desc>Here are some of my skills on which I have been working on for the past 2 years.
-                </Desc>
+                <div className="text-center mb-4 px-4">
+                    <h2 className="text-4xl text-white font-bold mb-4">Skills</h2>
+                    <p className="text-lg text-gray-300">
+                        Here are some of my skills on which I have been working on for the past 2 years.
+                    </p>
+                </div>
                 <SkillsContainer>
                     {skills.map((skill) => (
                         <Skill>

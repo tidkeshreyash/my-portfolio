@@ -76,8 +76,8 @@
   position: absolute;
   inset: 0;
  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(219, 213, 213, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
   background-size: 50px 50px;
   transform: rotateX(60deg) rotateZ(45deg);
   animation: moveGrid 20s linear infinite;
@@ -266,3 +266,36 @@ ul {
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
 }
+
+
+.footer-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-wrapper::before,
+.footer-wrapper::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.footer-wrapper::before {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #9f7aea, transparent 70%);
+  top: -100px;
+  left: -100px;
+}
+
+.footer-wrapper::after {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #6b46c1, transparent 70%);
+  bottom: -150px;
+  right: -150px;
+}
+

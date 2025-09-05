@@ -5,6 +5,7 @@ import SocialIcons from './components/SocialIcons';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,28 +18,8 @@ function App() {
       <About />
       <Experience />
       <Skills />
-
-      {/* Scrollable Content */}
-      <main className="space-y-20">
-        <section className="h-screen flex items-center justify-center">
-          <h1 className="text-5xl text-white">Home Section</h1>
-        </section>
-        <section className="h-screen flex items-center justify-center">
-          <h1 className="text-5xl text-white">About Section</h1>
-        </section>
-        <section className="h-screen flex items-center justify-center">
-          <h1 className="text-5xl text-white">Education Section</h1>
-        </section>
-        <section className="h-screen flex items-center justify-center">
-          <h1 className="text-5xl text-white">Experience Section</h1>
-        </section>
-        <section className="h-screen flex items-center justify-center">
-          <h1 className="text-5xl text-white">Projects Section</h1>
-        </section>
-        <section className="h-screen flex items-center justify-center">
-          <h1 className="text-5xl text-white">Contact Section</h1>
-        </section>
-      </main>
+      <hr class="mt-16 border-gray-600" />
+      <Footer />
     </div>
   );
 }

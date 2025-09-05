@@ -122,7 +122,7 @@ const Experience = () => {
             <Wrapper>
 
                 <div className="text-center mb-4 px-4">
-                    <h2 className="text-4xl font-bold mb-4">Experience</h2>
+                    <h2 className="text-4xl text-white font-bold mb-4">Experience</h2>
                     <p className="text-lg text-gray-300">
                         My work experience as a software engineer and working on different companies and projects.
                     </p>
