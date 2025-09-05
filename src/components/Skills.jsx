@@ -28,6 +28,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding-top: 85px
 `
 
 const Wrapper = styled.div`

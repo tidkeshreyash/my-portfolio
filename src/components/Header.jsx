@@ -68,12 +68,16 @@ function Header() {
       {/* Mobile Menu */}
       {menuOpen && (
         <nav className="md:hidden bg-black/50 backdrop-blur-md rounded-xl mt-2 p-4 flex flex-col space-y-3 animate-fade-in">
-          <a href="#about" className="text-gray-200 hover:text-white">About</a>
-          <a href="#experience" className="text-gray-200 hover:text-white">Experience</a>
-          <a href="#skills" className="text-gray-200 hover:text-white">Skills</a>
-          <a href="#projects" className="text-gray-200 hover:text-white">Projects</a>
-          <a href="#education" className="text-gray-200 hover:text-white">Education</a>
-          <a href="#contact" className="text-gray-200 hover:text-white">Contact</a>
+         {['about','experience','skills','projects','education','contact'].map((section) => (
+      <a
+        key={section}
+        href={`#${section}`}
+        className="text-gray-200 hover:text-white"
+        onClick={() => setMenuOpen(false)} // <-- closes the menu on click
+      >
+        {section.charAt(0).toUpperCase() + section.slice(1)}
+      </a>
+    ))}
           <a href="mailto:shreyashtidke751@gmail.com">
             <button type="button" className="button w-full mt-2">
               <span className="fold"></span>
