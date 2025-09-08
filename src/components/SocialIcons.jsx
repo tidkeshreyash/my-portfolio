@@ -2,7 +2,7 @@ import React from "react";
 
 function SocialIcons() {
     return (
-        <div className="social-icons">
+        <div className="social-icons hidden sm:block">
             <ul class="example-2">
                 <li class="icon-content">
                     <a

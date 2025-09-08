@@ -259,7 +259,7 @@ const Skills = () => {
         },
     ];
     return (
-        <Container id="skills">
+        <Container id="skills" >
             <Wrapper>
                 <div className="text-center mb-4 px-4">
                     <h2 className="text-4xl text-white font-bold mb-4">Skills</h2>

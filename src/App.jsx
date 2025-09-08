@@ -6,8 +6,12 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
+import ProjectDetails from './components/ProjectDetails';
+import { useState } from "react";
 
 function App() {
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <div className="min-h-screen text-gray-100">
       
@@ -18,8 +22,12 @@ function App() {
       <About />
       <Experience />
       <Skills />
+      <Projects openModal={openModal} setOpenModal={setOpenModal}  />
       <hr class="mt-16 border-gray-600" />
       <Footer />
+      {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
     </div>
   );
 }

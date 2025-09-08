@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
-                        <div class="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
+                        <div class="md:ml-4 col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
                             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold text-white mb-3 sm:mb-4">
                                 <span className="text-purple-400">Shreyash Tidke</span>
                             </h1>
@@ -122,7 +122,7 @@ const Footer = () => {
                                         name="email"
                                         id="email"
                                         placeholder="Enter your email"
-                                        class="block w-full p-4 text-gray-200 placeholder-gray-400 
+                                        class="block w-64 p-4 text-gray-200 placeholder-gray-400 
                transition-all duration-200 
                bg-gray-900 border border-gray-700 rounded-md 
                focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500"
