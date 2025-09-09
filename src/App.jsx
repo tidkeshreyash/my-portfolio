@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import ProjectDetails from './components/ProjectDetails';
+import BlogSection from './components/BlogSection.jsx';
 import { useState } from "react";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Experience />
       <Skills />
       <Projects openModal={openModal} setOpenModal={setOpenModal}  />
+      <BlogSection />
       <hr class="mt-16 border-gray-600" />
       <Footer />
       {openModal.state &&
