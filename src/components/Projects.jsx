@@ -2,6 +2,13 @@ import React from 'react'
 import { useState } from 'react'
 import ProjectCard from './ProjectCards'
 import styled from 'styled-components';
+import LBImg from '../assets/lb_project.png'
+import LCImg from '../assets/lc_project.png'
+import stressImg from '../assets/stressDetection.png'
+import barImg from '../assets/barcounter.png'
+import portfolioImg from '../assets/portfolio.png'
+import retailImg from '../assets/retail.png'
+import teamicon from '../assets/teamicon.png'
 
 const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
@@ -110,37 +117,77 @@ const CardContainer = styled.div`
 
 const Projects = ({openModal,setOpenModal}) => {
      const projects = [
+      {
+      id: 1,
+      title: "Liquor Counter",
+      date: "Nov 2024 - Feb 2025",
+      description:
+        "An ERP-based software solution designed for liquor stores to manage inventory, generate reports, and handle point-of-sale operations efficiently. In this project, I contributed by developing multiple modules such as license management, scheme estimates, and dynamic user reports (e.g., sales, stock). I also improved data loading performance and optimized APIs to ensure faster and smoother operations. Additionally, I resolved critical UI rendering issues, which enhanced the overall user experience and responsiveness of the system.",
+      image: LCImg,
+      tags: ["Java","Spring Boot","Spring Security","JDBC API","MYSQL","Angular"],
+      category: "web app",
+      github: "https://github.com/tidkeshreyash/My_College_App",
+      webapp: "https://github.com/tidkeshreyash/My_College_App",
+      member: [
+      {
+        name: "Shreyash Tidke",
+        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/tidkeshreyash/",
+      },
+      {
+        name: "Team Members",
+        img: teamicon,
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/tidkeshreyash/",
+      },
+    ],
+    },
+    {
+      id: 2,
+      title: "LearnerBits",
+      date: "May 2023 - July 2023",
+      description:
+        "LearnerBits is a dynamic WordPress website developed using Elementor, catering to the diverse needs of students. With a substantial user base of 200K visitors, the platform offers an extensive range of services, including comprehensive study notes, insightful blogs on the latest technologies, and regular job updates.",
+      image: LBImg,
+      tags: [
+        "Elementor",
+        "WordPress","Rank Math", "C7","Cloudflare"
+      ],
+      category: "web app",
+      github: "https://learnerbits.com/",
+      webapp: "https://learnerbits.com/",
+       member: [
+      {
+        name: "Shreyash Tidke",
+        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/tidkeshreyash/",
+      },
+      {
+        name: "Prajwal Bhundhade",
+        img: "https://www.prajwalbundhade.in/_next/image?url=%2Fassets%2Fport-photo.jpg&w=750&q=75",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+    ],
+    },
     {
       id: 9,
-      title: "Electricity Billing System",
+      title: "Retail Counter App",
       date: "Jun 2022 - Jul 2022",
       description:
         "Developed an electricity billing system using Java Swing GUI toolkit, allowing users to manage billing information and generate invoices.",
-      image:
-        "https://user-images.githubusercontent.com/94781499/197719527-707a6c41-97f2-4461-8115-42118ffd9d01.png",
+      image: retailImg,
       tags: [
         "Java",
         "Java Swing",
         "MySQL",
         "Netbeans",
       ],
-      category: "web app",
+      category: "android app",
       github: "https://github.com/tidkeshreyash/CC-OCR-JAVA-DEVELOPMENT",
       webapp: "https://github.com/tidkeshreyash/CC-OCR-JAVA-DEVELOPMENT",
-       member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
     },
     {
       id: 0,
@@ -148,29 +195,11 @@ const Projects = ({openModal,setOpenModal}) => {
       date: "Sept 2023 - Oct 2023",
       description:
         "Wanderlust is an innovative online platform that facilitates the seamless connection between property owners and travelers offering a convenient solution for holiday accommodation. Wanderlust enables property owners to effortlessly list theirspaces for short-term rentals, while providing travelers with a diverse range of options for a comfortable stay away from home.",
-      image:
-        "https://user-images.githubusercontent.com/94781499/278882931-ddcb1d82-8578-431a-82c7-6acd3adaec98.png",
+      image: portfolioImg,
       tags: ["HTML","CSS", "MongoDb", "Node Js", "Express Js",],
       category: "web app",
       github: "https://github.com/tidkeshreyash",
       webapp: "https://github.com/tidkeshreyash",
-    },
-    
-    {
-      id: 1,
-      title: "LearnerBits",
-      date: "May 2023",
-      description:
-        "LearnerBits is a dynamic WordPress website developed using Elementor, catering to the diverse needs of students. With a substantial user base of 15,000 visitors, the platform offers an extensive range of services, including comprehensive study notes, insightful blogs on the latest technologies, and regular job updates.",
-      image:
-        "https://user-images.githubusercontent.com/94781499/278882944-adea6f38-9920-4ad5-93ba-7fb17c2ddb51.png",
-      tags: [
-        "Elementor",
-        "WordPress",
-      ],
-      category: "web app",
-      github: "https://learnerbits.com/",
-      webapp: "https://learnerbits.com/",
     },
     {
       id: 2,
@@ -178,34 +207,20 @@ const Projects = ({openModal,setOpenModal}) => {
       date: "June 2023 - Aug 2023",
       description:
         "Designed and implemented a Stress Detection System utilizing Machine Learning, with a focus on leveraging the Naive Bayes algorithm. Developed the system to analyze and classify stress levels based on diverse input features, achieving accurate and reliable predictions. This project involved extensive data preprocessing, feature engineering, and model training to create a robust and effective stress assessment tool. The successful implementation demonstrates strong proficiency in machine learning techniques and a keen ability to address real-world challenges in mental health monitoring.",
-      image:
-        "https://user-images.githubusercontent.com/94781499/278882952-eec6bc63-52de-446e-b7d8-512727250d9b.png",
+      image: stressImg,
       tags: ["Python","Naive Bayes Algorithm"],
       category: "machine learning",
       github: "https://github.com/tidkeshreyash",
       webapp: "https://github.com/tidkeshreyash",
     },
-    {
-      id: 10,
-      title: "College App",
-      date: "Jun 2023 - Jul 2023",
-      description:
-        "The College App aims to create a user-friendly mobile application that provides comprehensive information about a college.",
-      image:
-        "https://user-images.githubusercontent.com/94781499/256132534-e113d3ed-f573-4cfd-81bb-bcbaad27a111.png",
-      tags: ["Java","XML","Eclipse ADT"],
-      category: "android app",
-      github: "https://github.com/tidkeshreyash/My_College_App",
-      webapp: "https://github.com/tidkeshreyash/My_College_App",
-    },
+    
     {
       id: 4,
-      title: "Usability Hub[Clone Website]",
-      date: "Jul 2021",
+      title: "Bar Counter",
+      date: "Nov 2024 - Aug 2025",
       description:
         "Developed a fully functional clone of Usability Hub, a prominent usability testing platform, using HTML and CSS. Meticulously crafted the user interface to replicate the original site's design and responsiveness. This project showcases proficiency in front-end web development, attention to detail in design implementation, and a solid understanding of HTML and CSS principles. The clone faithfully captures the user experience of Usability Hub, reflecting a commitment to creating polished and user-friendly web applications",
-      image:
-        "https://user-images.githubusercontent.com/94781499/278882909-c0acdb51-4587-4929-bb81-54117230b416.png",
+      image: barImg,
       tags: ["HTML", "CSS"],
       category: "web app",
       github: "https://github.com/tidkeshreyash/Usability_Hub_WebsiteClone",
