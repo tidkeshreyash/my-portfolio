@@ -15,15 +15,15 @@ export default function BlogCard({ post }) {
         group block rounded-xl overflow-hidden border
         border-zinc-800 bg-zinc-900/60 hover:bg-zinc-900
         transition hover:-translate-y-0.5 hover:shadow-lg
-        shadow-black/20
+        shadow-black/20 mx-6 sm:mx-0
       "
     >
       {/* Image */}
-      <div className="aspect-[16/10] w-full overflow-hidden bg-zinc-800">
+      <div className="aspect-[16/10] w-full overflow-hidden p-4">
         <img
           src={featuredImage}
           alt={post.title?.rendered}
-          className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+          className="bg-zinc-900/60 h-full w-full object-cover transition duration-300 group-hover:scale-[1.03] rounded-xl"
           loading="lazy"
         />
       </div>

@@ -14,7 +14,7 @@ import { useState } from "react";
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
-    <div className="min-h-screen text-gray-100">
+    <div className="min-h-screen text-gray-100 overflow-x-hidden">
       
       {/* Sticky Header */}
       <Header />

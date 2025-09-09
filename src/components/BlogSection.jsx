@@ -33,7 +33,7 @@ export default function BlogSection() {
       </div>
       
 
-      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-0 md:px-16">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-0 md:px-16 sm:mx-6">
         {posts.length === 0 ? (
           <p className="text-zinc-400 text-center col-span-3">
             Loading blogs...
