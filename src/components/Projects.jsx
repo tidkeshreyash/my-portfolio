@@ -11,7 +11,7 @@ import retailImg from '../assets/retail.png'
 import teamicon from '../assets/teamicon.png'
 import femaleIcon from '../assets/femaleIcon.png'
 import maleIcon from '../assets/maleIcon.svg'
-import heroImg from '../assets/heroImg.jpg'
+import heroImg from '../assets/heroImg.JPG'
 
 const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
