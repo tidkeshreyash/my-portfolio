@@ -5,8 +5,8 @@ function SocialIcons() {
         <div className="social-icons hidden sm:block">
             <ul class="example-2">
                 <li class="icon-content">
-                    <a
-                        href="https://linkedin.com/"
+                    <a target="_blank" rel="noopener noreferrer"
+                        href="https://www.linkedin.com/in/shreyash-tidke-2b6872219/"
                         aria-label="LinkedIn"
                         data-social="linkedin"
                     >
@@ -29,7 +29,7 @@ function SocialIcons() {
                     <div class="tooltip">LinkedIn</div>
                 </li>
                 <li class="icon-content">
-                    <a href="https://github.com/tidkeshreyash/" aria-label="GitHub" data-social="github">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/tidkeshreyash/" aria-label="GitHub" data-social="github">
                         <div class="filled"></div>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function SocialIcons() {
                 </li>
 
                 <li class="icon-content">
-                    <a href="https://leetcode.com/" aria-label="LeetCode" data-social="leetcode">
+                    <a target="_blank" rel="noopener noreferrer" href="https://leetcode.com/u/shreyash758/" aria-label="LeetCode" data-social="leetcode">
                         <div class="filled"></div>
                         <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="leetcode">
                             <path fill="currentColor" d="M22,14.355c0-0.742-0.564-1.345-1.26-1.345H10.676c-0.696,0-1.26,0.604-1.26,1.345c0,0.742,0.564,1.346,1.26,1.346H20.74C21.436,15.701,22,15.098,22,14.355L22,14.355z"></path>
@@ -66,7 +66,7 @@ function SocialIcons() {
                     <div class="tooltip">LeetCode</div>
                 </li>
                 <li class="icon-content">
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.instagram.com/"
                         aria-label="Instagram"
                         data-social="instagram"

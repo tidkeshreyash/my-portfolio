@@ -24,7 +24,7 @@ export default function BlogSection() {
   }, []);
 
   return (
-    <section className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 py-12">
+    <section id="blogs" className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 py-12">
        <div className="text-center mb-12 px-4 mt-4">
         <h2 className="text-4xl font-bold mb-4">Latest Blogs</h2>
         <p className="text-lg text-gray-300">

@@ -14,10 +14,11 @@ import { useState } from "react";
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
-    <div className="min-h-screen text-gray-100 overflow-x-hidden">
+    <div className="min-h-screen text-gray-100">
       
       {/* Sticky Header */}
       <Header />
+      <div className="overflow-x-hidden"> 
        <Hero />
       <SocialIcons />
       <About />
@@ -27,9 +28,11 @@ function App() {
       <BlogSection />
       <hr class="mt-16 border-gray-600" />
       <Footer />
+       </div>
       {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
+     
     </div>
   );
 }

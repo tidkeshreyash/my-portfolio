@@ -9,6 +9,9 @@ import barImg from '../assets/barcounter.png'
 import portfolioImg from '../assets/portfolio.png'
 import retailImg from '../assets/retail.png'
 import teamicon from '../assets/teamicon.png'
+import femaleIcon from '../assets/femaleIcon.png'
+import maleIcon from '../assets/maleIcon.svg'
+import heroImg from '../assets/heroImg.jpg'
 
 const Container = styled.div`
     background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
@@ -126,20 +129,20 @@ const Projects = ({openModal,setOpenModal}) => {
       image: LCImg,
       tags: ["Java","Spring Boot","Spring Security","JDBC API","MYSQL","Angular"],
       category: "web app",
-      github: "https://github.com/tidkeshreyash/My_College_App",
-      webapp: "https://github.com/tidkeshreyash/My_College_App",
+      github: "https://github.com/tidkeshreyash/",
+      webapp: "https://github.com/tidkeshreyash/",
       member: [
       {
         name: "Shreyash Tidke",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        img: heroImg,
+        linkedin: "https://www.linkedin.com/in/shreyash-tidke-2b6872219/",
         github: "https://github.com/tidkeshreyash/",
       },
       {
         name: "Team Members",
         img: teamicon,
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/tidkeshreyash/",
+        linkedin: "",
+        github: "",
       },
     ],
     },
@@ -152,7 +155,7 @@ const Projects = ({openModal,setOpenModal}) => {
       image: LBImg,
       tags: [
         "Elementor",
-        "WordPress","Rank Math", "C7","Cloudflare"
+        "WordPress","Rank Math", "C7","Cloudflare","Astra"
       ],
       category: "web app",
       github: "https://learnerbits.com/",
@@ -160,51 +163,46 @@ const Projects = ({openModal,setOpenModal}) => {
        member: [
       {
         name: "Shreyash Tidke",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        img: heroImg,
+        linkedin: "https://www.linkedin.com/in/shreyash-tidke-2b6872219/",
         github: "https://github.com/tidkeshreyash/",
       },
       {
         name: "Prajwal Bhundhade",
         img: "https://www.prajwalbundhade.in/_next/image?url=%2Fassets%2Fport-photo.jpg&w=750&q=75",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
+        linkedin: "https://www.linkedin.com/in/prajwalbundhade",
+        github: "https://github.com/prajwalbundhade",
       },
     ],
     },
     {
-      id: 9,
+      id: 3,
       title: "Retail Counter App",
-      date: "Jun 2022 - Jul 2022",
-      description:
-        "Developed an electricity billing system using Java Swing GUI toolkit, allowing users to manage billing information and generate invoices.",
+      date: "Mar 2025 - Apr 2025",
+      description: "A mobile ERP solution built for retail stores to monitor live sales and access key business reports such as sales, stock, and profit insights. In this project, I primarily worked on the backend, developing APIs to fetch and process real-time data for dashboards and reports. I focused on ensuring optimized data flow and accuracy in reporting, enabling retail store owners to make faster and more informed decisions.",
       image: retailImg,
       tags: [
-        "Java",
-        "Java Swing",
-        "MySQL",
-        "Netbeans",
+       "Java","Spring Boot","Spring Security","JDBC API","MYSQL","Ionic"
       ],
       category: "android app",
-      github: "https://github.com/tidkeshreyash/CC-OCR-JAVA-DEVELOPMENT",
-      webapp: "https://github.com/tidkeshreyash/CC-OCR-JAVA-DEVELOPMENT",
+      github: "https://github.com/tidkeshreyash/",
+      webapp: "https://github.com/tidkeshreyash/",
     },
     {
-      id: 0,
-      title: "WanderLust",
-      date: "Sept 2023 - Oct 2023",
-      description:
-        "Wanderlust is an innovative online platform that facilitates the seamless connection between property owners and travelers offering a convenient solution for holiday accommodation. Wanderlust enables property owners to effortlessly list theirspaces for short-term rentals, while providing travelers with a diverse range of options for a comfortable stay away from home.",
+      id: 4,
+      title: "Portfolio Website",
+      date: "Sept 2025 - Oct 2025",
+      description: "A personal portfolio website built using React to showcase my skills, experience, education, and technical blogs. The website includes dedicated sections like About Me, Skills, Projects, Education, and Blogs, each designed with a clean and responsive UI for seamless navigation across devices. It highlights my expertise in full-stack development while serving as a central hub for my professional branding and technical content.",
       image: portfolioImg,
-      tags: ["HTML","CSS", "MongoDb", "Node Js", "Express Js",],
+      tags: ["ReactJs","Tailwind CSS","EmailJs"],
       category: "web app",
-      github: "https://github.com/tidkeshreyash",
-      webapp: "https://github.com/tidkeshreyash",
+      github: "https://github.com/tidkeshreyash/my-portfolio",
+      webapp: "https://shreyashtidke.vercel.app/",
     },
     {
-      id: 2,
-      title: "Stress Detection System",
-      date: "June 2023 - Aug 2023",
+      id: 5,
+      title: "Stress Detection System [Final Year Project]",
+      date: "Sept 2023 - Feb 2024",
       description:
         "Designed and implemented a Stress Detection System utilizing Machine Learning, with a focus on leveraging the Naive Bayes algorithm. Developed the system to analyze and classify stress levels based on diverse input features, achieving accurate and reliable predictions. This project involved extensive data preprocessing, feature engineering, and model training to create a robust and effective stress assessment tool. The successful implementation demonstrates strong proficiency in machine learning techniques and a keen ability to address real-world challenges in mental health monitoring.",
       image: stressImg,
@@ -212,19 +210,64 @@ const Projects = ({openModal,setOpenModal}) => {
       category: "machine learning",
       github: "https://github.com/tidkeshreyash",
       webapp: "https://github.com/tidkeshreyash",
+      member: [
+      {
+        name: "Shreyash Tidke",
+        img: heroImg,
+        linkedin: "https://www.linkedin.com/in/shreyash-tidke-2b6872219/",
+        github: "https://github.com/tidkeshreyash/",
+      },
+      {
+        name: "Tejas Malokar",
+        img: maleIcon,
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/tidkeshreyash/",
+      },
+      {
+        name: "Faiz",
+        img: maleIcon,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Sarvesh Udapurkar",
+        img: maleIcon,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Prajakta Gaikwad",
+        img: femaleIcon,
+        linkedin: "",
+        github: "",
+      },
+    ],
     },
     
     {
-      id: 4,
+      id: 6,
       title: "Bar Counter",
-      date: "Nov 2024 - Aug 2025",
-      description:
-        "Developed a fully functional clone of Usability Hub, a prominent usability testing platform, using HTML and CSS. Meticulously crafted the user interface to replicate the original site's design and responsiveness. This project showcases proficiency in front-end web development, attention to detail in design implementation, and a solid understanding of HTML and CSS principles. The clone faithfully captures the user experience of Usability Hub, reflecting a commitment to creating polished and user-friendly web applications",
+      date: "May 2025 - Aug 2025",
+      description: "An ERP-based billing and management software solution tailored for restaurants and bars. The system includes key features such as POS (Point of Sale) billing, stock management, and daily stock closing reports, helping businesses streamline operations efficiently. In this project, I contributed by developing backend logic for stock tracking and reporting, optimizing database operations, and ensuring accurate real-time updates. Additionally, I worked on improving the overall reliability of the system by addressing performance bottlenecks and enhancing data accuracy across reports.",
       image: barImg,
-      tags: ["HTML", "CSS"],
+      tags: ["Java","Spring Boot","Spring Security","JDBC API","MYSQL","Angular",],
       category: "web app",
-      github: "https://github.com/tidkeshreyash/Usability_Hub_WebsiteClone",
-      webapp: "https://github.com/tidkeshreyash/Usability_Hub_WebsiteClone",
+      github: "https://github.com/tidkeshreyash/",
+      webapp: "https://github.com/tidkeshreyash/",
+      member: [
+      {
+        name: "Shreyash Tidke",
+        img: heroImg,
+        linkedin: "https://www.linkedin.com/in/shreyash-tidke-2b6872219/",
+        github: "https://github.com/tidkeshreyash/",
+      },
+      {
+        name: "Team Members",
+        img: teamicon,
+        linkedin: "",
+        github: "",
+      },
+      ],
     },
   ];
   const [toggle, setToggle] = useState('all');

@@ -14,7 +14,7 @@ const Footer = () => {
 
                             <ul class="flex items-center space-x-3 mt-4">
                                 <li>
-                                    <a href="#" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shreyash-tidke-2b6872219/" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
                                         <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.966 0-1.75-.786-1.75-1.75s.784-1.75 1.75-1.75 1.75.786 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.27h-3v-5.604c0-1.337-.026-3.062-1.865-3.062-1.865 0-2.151 1.455-2.151 2.963v5.703h-3v-10h2.881v1.367h.041c.401-.758 1.379-1.556 2.838-1.556 3.034 0 3.596 1.997 3.596 4.59v5.599z" />
                                         </svg>
@@ -22,7 +22,7 @@ const Footer = () => {
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://leetcode.com/u/shreyash758/" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
                                         <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="leetcode">
                                             <path fill="currentColor" d="M22,14.355c0-0.742-0.564-1.345-1.26-1.345H10.676c-0.696,0-1.26,0.604-1.26,1.345c0,0.742,0.564,1.346,1.26,1.346H20.74C21.436,15.701,22,15.098,22,14.355L22,14.355z"></path>
                                             <path fill="currentColor" d="M22,14.355H9.416l0,0c0,0.742,0.564,1.346,1.26,1.346H20.74C21.436,15.701,22,15.098,22,14.355L22,14.355L22,14.355z"></path>
@@ -37,7 +37,7 @@ const Footer = () => {
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/tidkeshreyash/" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
                                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                             <path
                                                 fill-rule="evenodd"
@@ -49,7 +49,7 @@ const Footer = () => {
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
+                                    <a target="_blank" rel="noopener noreferrer" href="#" title="" class="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600 focus:bg-blue-600">
                                         <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                             <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path>
                                             <circle cx="16.806" cy="7.207" r="1.078"></circle>
@@ -69,19 +69,19 @@ const Footer = () => {
 
                             <ul class="mt-6 space-y-4 text-gray-200">
                                 <li>
-                                    <a href="#" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Home </a>
+                                    <a href="#home" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Home </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> About </a>
+                                    <a href="#about" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> About </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Experience </a>
+                                    <a href="#experience" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Experience </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Skills </a>
+                                    <a href="#skills" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Skills </a>
                                 </li>
 
                             </ul>
@@ -92,19 +92,19 @@ const Footer = () => {
 
                             <ul class="mt-6 space-y-4 text-gray-200">
                                 <li>
-                                    <a href="#" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Projects </a>
+                                    <a href="#projects" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Projects </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-base  transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Education </a>
+                                    <a href="#education" title="" class="flex text-base  transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Education </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-base  transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Contact </a>
+                                    <a href="#contact" title="" class="flex text-base  transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Contact </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Blogs </a>
+                                    <a href="#blogs" title="" class="flex text-base transition-all duration-200 hover:text-purple-500 focus:text-purple-500"> Blogs </a>
                                 </li>
                             </ul>
                         </div>
