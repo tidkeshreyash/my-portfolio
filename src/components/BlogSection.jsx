@@ -24,14 +24,17 @@ export default function BlogSection() {
   }, []);
 
   return (
-    <section id="blogs" className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 py-12">
-       <div className="text-center mb-12 px-4 mt-4">
+    <section
+      id="blogs"
+      className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 py-12"
+    >
+      <div className="text-center mb-12 px-4 mt-4">
         <h2 className="text-4xl font-bold mb-4">Latest Blogs</h2>
         <p className="text-lg text-gray-300">
-          Discover tutorials, insights, and ideas on web development, programming, and the latest in technology.
+          Discover tutorials, insights, and ideas on web development,
+          programming, and the latest in technology.
         </p>
       </div>
-      
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-0 md:px-16 sm:mx-6">
         {posts.length === 0 ? (
@@ -41,6 +44,37 @@ export default function BlogSection() {
         ) : (
           posts.map((post) => <BlogCard key={post.id} post={post} />)
         )}
+      </div>
+      <div className="mt-8 flex justify-center">
+        <a target="_blank" rel="noopener noreferrer" href="https://learnerbits.com/blogs/">
+          <button
+            type="button"
+            className="button w-full sm:w-auto px-6 py-3 rounded-lg"
+          >
+            <span className="inner">
+              View All Blogs
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                style={{ width: "24px", height: "22px",}}
+              >
+                 <circle cx="12" cy="12" r="11" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M5 12h14M12 5l7 7-7 7"
+                />
+              </svg>
+              
+            </span>
+          </button>
+        </a>
       </div>
     </section>
   );
