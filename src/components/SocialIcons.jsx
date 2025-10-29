@@ -67,7 +67,7 @@ function SocialIcons() {
                 </li>
                 <li class="icon-content">
                     <a target="_blank" rel="noopener noreferrer"
-                        href="https://www.instagram.com/"
+                        href="https://www.instagram.com/_.shrey._23/"
                         aria-label="Instagram"
                         data-social="instagram"
                     >
