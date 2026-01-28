@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import ProjectDetails from './components/ProjectDetails';
 import BlogSection from './components/BlogSection.jsx';
 import Education from './components/Education.jsx';
+import Contact from './components/Contact.jsx';
 import { useState } from "react";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Projects openModal={openModal} setOpenModal={setOpenModal}  />
       <BlogSection />
       <Education />
+       <Contact />
       <hr class="mt-16 border-gray-600" />
       <Footer />
        </div>

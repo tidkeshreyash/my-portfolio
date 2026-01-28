@@ -267,6 +267,11 @@ ul {
   border-radius: 16px;
 }
 
+.bg-glow-1{
+  border: 1px solid #F2F3F480;
+  border-radius: 12px;
+}
+
 
 .footer-wrapper {
   position: relative;
