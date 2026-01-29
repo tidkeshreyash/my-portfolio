@@ -161,7 +161,7 @@ const Footer = () => {
 
                     <hr class="mt-10 mb-8 border-gray-600" />
 
-                    <p class="text-sm text-center text-gray-400">© 2025 Shreyash Tidke | Built with React & Love ❤️</p>
+                    <p class="text-sm text-center text-gray-400">© 2026 Shreyash Tidke | Built with React & Love ❤️</p>
                 </div>
             </div>
         </section>

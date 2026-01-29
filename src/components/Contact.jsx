@@ -49,12 +49,12 @@ const Contact = () => {
 
                     {/* Contact Metadata */}
                     <div className="rounded-xl bg-gradient-to-br from-white/5 to-transparent 
-                border border-white/10 px-6 py-5 bg-glow-1">
+                border border-white/10 px-2 py-4 md:px-6 md:py-5 bg-glow-1">
 
                         <div className="space-y-4 font-mono text-sm">
 
                             {/* Email */}
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-2 md:gap-4">
                                 <span className="text-purple-400">email</span>
                                 <span className="text-gray-500">:</span>
                                 <span className="text-white break-all">
@@ -63,7 +63,7 @@ const Contact = () => {
                             </div>
 
                             {/* Location */}
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-2 md:gap-4">
                                 <span className="text-purple-400">location</span>
                                 <span className="text-gray-500">:</span>
                                 <span className="text-white">
@@ -72,7 +72,7 @@ const Contact = () => {
                             </div>
 
                             {/* Availability */}
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-2 md:gap-4">
                                 <span className="text-purple-400">availability</span>
                                 <span className="text-gray-500">:</span>
                                 <span className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></span>
