@@ -34,7 +34,7 @@ function Hero() {
                         Building scalable and modern web applications with a passion for clean code and problem-solving.
                     </p>
                     <div className="flex justify-center md:justify-start">
-                        <a href="https://drive.google.com/file/d/1Rq4Nz-b5tHU03iRtHxpWGSgofEKhS7XM/view?usp=sharing" download>
+                        <a href="https://drive.google.com/file/d/1ye0qQ55SFLr1wjcnO3Y5aUTFoQqMGS-G/view?usp=sharing" download>
                             <button type="button" className="button w-full mt-2">
                                 <span className="inner">
 

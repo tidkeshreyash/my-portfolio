@@ -12,6 +12,7 @@ import BlogSection from './components/BlogSection.jsx';
 import Education from './components/Education.jsx';
 import Contact from './components/Contact.jsx';
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
@@ -30,6 +31,7 @@ function App() {
       <BlogSection />
       <Education />
        <Contact />
+       <Analytics/>
       <hr class="mt-16 border-gray-600" />
       <Footer />
        </div>
