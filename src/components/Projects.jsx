@@ -3,11 +3,11 @@ import { useState } from 'react'
 import ProjectCard from './ProjectCards'
 import styled from 'styled-components';
 import LBImg from '../assets/lb_project.png'
-import LCImg from '../assets/lc_project.png'
+import LCImg from '../assets/LC_ENT.png'
 import stressImg from '../assets/stressDetection.png'
-import barImg from '../assets/barcounter.png'
+import barImg from '../assets/BC_ENT.png'
 import portfolioImg from '../assets/portfolio.png'
-import retailImg from '../assets/retail.png'
+import retailImg from '../assets/RC_APP.png'
 import teamicon from '../assets/teamicon.png'
 import femaleIcon from '../assets/femaleIcon.png'
 import maleIcon from '../assets/maleIcon.svg'
@@ -122,8 +122,8 @@ const Projects = ({openModal,setOpenModal}) => {
      const projects = [
       {
       id: 1,
-      title: "Liquor Counter",
-      date: "Nov 2024 - Feb 2025",
+      title: "Enterprise Retail Platform",
+      date: "Nov 2024 - MAY 2025",
       description:
         "An ERP-based software solution designed for liquor stores to manage inventory, generate reports, and handle point-of-sale operations efficiently. In this project, I contributed by developing multiple modules such as license management, scheme estimates, and dynamic user reports (e.g., sales, stock). I also improved data loading performance and optimized APIs to ensure faster and smoother operations. Additionally, I resolved critical UI rendering issues, which enhanced the overall user experience and responsiveness of the system.",
       image: LCImg,
@@ -177,8 +177,8 @@ const Projects = ({openModal,setOpenModal}) => {
     },
     {
       id: 3,
-      title: "Retail Counter App",
-      date: "Mar 2025 - Apr 2025",
+      title: "Retail Operations App",
+      date: "June 2025 - Dec 2025",
       description: "A mobile ERP solution built for retail stores to monitor live sales and access key business reports such as sales, stock, and profit insights. In this project, I primarily worked on the backend, developing APIs to fetch and process real-time data for dashboards and reports. I focused on ensuring optimized data flow and accuracy in reporting, enabling retail store owners to make faster and more informed decisions.",
       image: retailImg,
       tags: [
@@ -246,8 +246,8 @@ const Projects = ({openModal,setOpenModal}) => {
     
     {
       id: 6,
-      title: "Bar Counter",
-      date: "May 2025 - Aug 2025",
+      title: "Hospitality Operations Platform",
+      date: "Jan 2026 - Present",
       description: "An ERP-based billing and management software solution tailored for restaurants and bars. The system includes key features such as POS (Point of Sale) billing, stock management, and daily stock closing reports, helping businesses streamline operations efficiently. In this project, I contributed by developing backend logic for stock tracking and reporting, optimizing database operations, and ensuring accurate real-time updates. Additionally, I worked on improving the overall reliability of the system by addressing performance bottlenecks and enhancing data accuracy across reports.",
       image: barImg,
       tags: ["Java","Spring Boot","Spring Security","JDBC API","MYSQL","Angular",],
