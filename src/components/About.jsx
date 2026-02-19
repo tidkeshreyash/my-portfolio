@@ -1,5 +1,5 @@
 import React from "react";
-import myPhoto from "../assets/myphoto.jpg";
+import myPhoto from "../assets/pht_org.jpeg";
 
 const About = () => {
   return (
@@ -16,13 +16,15 @@ const About = () => {
       <div className="flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto px-4 gap-10 ">
         {/* Left Column: Photo (50%) */}
         <div className="w-full md:w-1/2 flex justify-center">
-        
-          <img
-            src={myPhoto}
-            alt="Shreyash Tidke"
-            className="w-full max-w-md max-h-85 h-auto rounded-lg object-cover shadow-lg hover:scale-105 transition-transform duration-300"
-          />
-        </div>
+  <div className="w-full max-w-md h-[420px]">
+    <img
+      src={myPhoto}
+      alt="Shreyash Tidke"
+      className="w-full h-full rounded-lg object-cover shadow-lg hover:scale-105 transition-transform duration-300"
+    />
+  </div>
+</div>
+
 
         {/* Right Column: About Paragraphs with Glassmorphism */}
         <div className="w-full md:w-1/2 text-center md:text-left">
